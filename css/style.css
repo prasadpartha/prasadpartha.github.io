@@ -271,7 +271,7 @@ h2.menu-item:before {
     font-size: 14px;
 }
 
-h2.about.menu-item:before {
+/*h2.about.menu-item:before {
     content: '01';
 }
 
@@ -285,7 +285,7 @@ h2.blog.menu-item:before {
 
 h2.contact.menu-item:before {
     content: '04';
-}
+}*/
 
 h2.menu-item:after {
     position: absolute;
@@ -1325,7 +1325,7 @@ ul.info-list li strong {
 }
 
 .inline-menu li.active {
-    text-decoration: line-through;
+    text-decoration: underline;
     cursor: text;
 }
 #project-modal,
